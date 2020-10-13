@@ -1,0 +1,813 @@
+/*Reset*/
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 4.0625em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*Estilos Gerais*/
+strong {
+	color: #AD2100;
+}
+
+.container {
+/*	max-width: 1120px;*/
+	width: 80%;
+	margin: 0 auto;
+}
+
+.btn {
+	width: 203px;
+	height: 57px;
+	background: black;
+	color: white;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	font-size: 0.9375em;
+	border: none;
+	text-decoration: none !important;
+	outline: none !important;
+	transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+	background: #AD2100;	
+}
+
+/*Super Info*/
+
+.superinfo-bg {
+	background: #AD2100;
+}
+
+.superinfo {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 8px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.superinfo a {
+	color: white;
+	font-size: .875em; 
+}
+
+.superinfo-icons {
+	display: flex;
+}
+
+.superinfo-icons a {
+	padding: 0 6px;
+	margin: auto;
+}
+
+/*Header*/
+
+.menu {
+	display: flex;
+	padding: 20px 0;
+	justify-content: space-between;
+}
+
+.menu-nav ul {
+	display: flex;
+}
+
+.menu-nav li {
+	padding: 27px 0px 25px 80px;
+}
+
+.menu-nav a {
+	font-size: 1em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #616361;
+}
+
+.menu-nav a:hover {
+	color: #AD2100;
+}
+
+/*Info Inicial*/
+
+.info-inicial {
+	display: flex;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.info-inicial img {
+	max-width: 645px;
+}
+
+.info-inicial div {
+	padding-left: 25px
+}
+
+.info-inicial div h1 {
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.2em;
+}
+
+/*
+.info-inicial div strong {
+	color: #AD2100;
+}
+*/
+
+.info-inicial div p {
+	max-width: 35em;
+	line-height: 2em;
+}
+
+.info-inicial .btn {
+	margin: 60px 25px 0px 0px
+}
+
+/*Investimento*/
+
+.investimento {
+	padding-top: 70px;
+}
+
+.investimento h2 {
+	text-align: center;
+	font-size: 40px;
+	line-height: 72px;
+	color: #080404
+}
+
+.investimento > img {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.card {
+	position: relative;
+}
+
+.card > img {
+	max-width: 350px;
+	max-height: 315px;
+	border-top: 2px solid #AD2100;
+}
+
+.card div {
+/*	max-width: 260px;*/
+	max-width: 315px;
+	border: 1px solid rgb(0,0,0, .1)
+}
+
+.card div h3 {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 30px;
+	line-height: 37px;
+	font-size: 1.6875em;
+	font-weight: normal;
+}
+
+.card div p {
+	max-width: 270px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #3E3C3C
+}
+
+.card .btn {
+	position: absolute;
+	bottom: -240px;
+	right: 112px;
+	width: 130px;
+	height: 40px;
+	font-size: 17px;
+	font-weight: 20px;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	padding-right: 35px
+}
+
+.bitcoin {
+	position: absolute;
+	top: 250px;
+	right: 17px;
+	background: white;
+	width: 315px;
+	box-shadow: 0px 0px 1em #666;
+}
+
+.bitcoin img {
+	position: absolute;
+	top: -40px;
+	right: 122px;
+	overflow-x: -99999;
+}
+
+/*Sobre nos*/
+
+.sobre-nos {
+	margin-top: 330px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sobre-nos h2 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 72px;
+	color: #111111;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+	margin-top: 50px
+}
+
+.sobre-nos p {
+	max-width: 522px;
+	line-height: 29px;
+}
+
+.sobre-nos img {
+	max-width: 540px;
+	max-height: 420px;
+}
+
+/*Servicos*/
+
+.servicos {
+	display: flex;
+	margin-bottom: 100px;
+	margin-top: 95px;
+}
+
+.card-servicos {
+	width: 320px;
+	background: #AD2100;
+	margin-bottom: 30px;
+}
+
+.card-servicos:first-child {
+	background: black;
+}
+
+.card-servicos > h3 {
+	margin: 0 auto;
+	padding-bottom: 25px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.card-servicos > p {
+	margin: 0 auto;
+	padding-bottom: 40px;
+	max-width: 215px;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+
+.card-servicos img {
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.our-services {
+	padding-left: 45px;
+}
+
+.our-services h2 {
+	font-size: 40px;
+	line-height: 35px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.our-services p {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #8f8f8f;
+	margin-bottom: 30px;
+}
+
+.servicos figure {
+	width: 730px;
+	height: 505px;
+	box-shadow: 0 0 40px -17px rgba(0,0,0,.5);
+	margin: 0 auto;
+}
+
+.servicos figure img {
+	max-width: 630px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+/*Nosso Time*/
+
+.our-team {
+	margin-bottom: 40px;
+}
+
+.our-team  h2 {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 500;
+}
+
+.our-team  p {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #666666
+}
+
+.bg-time {
+	background: black;
+}
+
+.box-time {
+	display: flex;
+}
+
+.card-time > img {
+	padding: 50px 30px 0 0;
+}
+
+.card-time h3 {
+	max-width: 345px;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card-time h4 {
+	max-width: 345px;
+	font-size: 14px;
+	line-height: 25.3px;
+	font-weight: 400;
+	color: #666666;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.card-time p {
+	max-width: 345px;
+	line-height: 25px;
+	font-weight: 300;
+	color: #818080;
+	text-align: center;
+}
+
+.card-social {
+	display: flex;
+	justify-content: space-between;
+	max-width: 215px;
+	padding: 40px 0;
+	margin: 0 64px;
+}
+
+/*Contato*/
+
+.contato {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-contato h1 {
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #100B0B;
+	margin-top: 95px;
+	margin-bottom: 50px;
+}
+
+.box-contato form {
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+}
+
+.box-contato input {
+	height: 60px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	padding-left: 15px;
+}
+
+.box-contato textarea {
+	height: 195px;
+	margin-bottom: 40px;
+	font-size: 16px;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	padding: 80px 0 0 15px
+}
+
+.box-chamada img {
+	max-width: 540px;
+	position: relative;
+	right: -5px;
+	margin-top: 195px;
+}
+
+.box-chamada-texto {
+	max-width: 430px;
+	position: relative;
+	top: -360px;
+	margin: 0 60px;
+}
+
+.box-chamada-texto h2 {
+	font-size: 32px;
+	line-height: 43px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.box-chamada-texto p {
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.btn-white {
+	background: white;
+	color: #AD2100;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	font-size: 0.9375em;
+	border: none;
+	text-decoration: none !important;
+	outline: none !important;
+	transition: all .3s ease-in-out;
+	padding: 13px 37px 13px 37px;
+}
+
+.box-chamada-texto a {
+	position: relative;
+	top: 40px;
+	left: 137px;
+}
+
+.box-chamada-texto a:hover {
+	background: #AD2100;
+	color: #ffffff;
+}
+
+/*Contato 2*/
+
+.contato2-bg {
+	background: #2B2A2A;
+	margin-top: 90px;
+}
+
+.contato2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contate-nos,
+.midias-sociais,
+.newsletter {
+	margin-top: 10px;
+	margin-bottom: -30px
+}
+
+.contate-nos li, .midias-sociais li {
+	display: flex;
+}
+
+.contate-nos h3, .midias-sociais h3, .newsletter h3 {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.contate-nos ul {
+	width: 350px;
+	height: 70px;
+}
+
+.contate-nos li a {
+	border: 1px solid white;
+	padding: 13px 40px;
+}
+
+.midias-sociais {
+	width: 250px;
+}
+
+.midias-sociais a {
+	padding: 20px
+}
+
+.newsletter {
+	width: 450px;
+}
+
+.newsletter input {
+	width: 342px;
+	height: 69px;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+.newsletter li {
+	display: inline-block;
+}
+
+.btn-newsletter {
+	list-style: none;
+	width: 171px;
+	height: 69px;
+	border-radius: 10px;
+	border: #f00 solid 1px;
+  background: #f00;
+	color: white;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	top: -68px;
+	left: 275px;
+}
+
+/*Footer*/
+
+.bg-footer {
+	background: #ad2100;
+}
+
+.bg-footer p {
+	text-align: center;
+	color: #ffffff;
+	padding: 10px
+}
+
+/*Media Querie*/
+
+@media screen and (max-width: 480px) {
+	
+	/*Superinfo*/
+	.superinfo > a {
+		display: none;
+	}
+	
+	.superinfo-icons {
+		margin: 0 auto;
+	}
+	
+	.superinfo-icons img {
+	 padding: 10px 25px;
+	}
+	
+	/*Menu*/
+	.menu {
+		display: inline-block;
+	}
+	.menu-logo {
+		padding-left: 80px;
+		margin-left: 53px
+	}
+	
+	.menu-nav ul {
+		flex-wrap: wrap;
+		margin-left: 90px;
+		margin-bottom: -30px;
+		padding-top: 15px;
+	}
+	
+	.menu-nav li:nth-child(4){
+		margin-left: 12px
+	}
+	
+	.menu-nav li {
+		padding: 15px 21px;
+	}
+	
+	.menu-nav img {
+	 display: none;
+	}
+	
+	/*Info Inicial*/
+	.info-inicial {
+		display: block;
+		flex-wrap: wrap;
+	}
+	
+	.info-inicial img {
+		width: 90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	
+	.info-inicial h1 {
+		margin-top: 20px;
+	}
+	
+	.info-inicial div p {
+		max-width: 90%;
+		margin-bottom: -30px;
+	}
+	
+	.info-inicial-button {
+		max-width: 90%;
+		display: flex;
+		margin-left: 5px;
+	}
+	
+	/*Investimento*/
+	.row {
+		flex-wrap: wrap;
+		
+	}
+	
+	.col {
+		margin-left: 12px;
+		padding-bottom: 300px;
+	}
+	
+	.col:nth-child(3) {
+		margin-bottom: -250px;
+	}
+	
+	/*Sobre-nos*/
+	.sobre-nos {
+		flex-wrap: wrap;
+	}
+	
+	.sobre-nos h2 {
+		line-height: 50px;
+		height: 60px;
+	}
+	
+	.sobre-nos p {
+		margin-bottom: 30px;
+	}
+	
+	.sobre-nos img {
+		max-width: 100%;
+	}
+	
+	/*Servicos*/
+	.servicos {
+		flex-wrap: wrap;
+	}
+	
+	.our-services {
+		order: -1;
+		margin-left: -10px
+	}
+	
+	.our-services figure,
+	.our-services img {
+		width: 100%;
+		margin-left: -15px
+	}
+	
+	.our-services figure {
+		height: 280px
+	}
+
+	.card-servicos {
+		margin-left: 28px;
+	}
+	
+	/*Time*/
+	.box-time {
+		flex-wrap: wrap;
+		margin-top: -10px;
+	}
+	
+	.card-time img {
+		margin-left: 15px;
+	}
+	
+	.card-time h3,
+	.card-time h4,
+	.card-time p {
+		margin-left: 15px;
+	}
+	
+	/*Contato*/
+	.contato {
+		flex-wrap: wrap;
+	}
+	
+	.box-contato form {
+		width: 365px;
+	}
+	
+	.box-chamada {
+		display: none;
+	}
+	
+	/*Footer*/
+	.contato2 {
+		flex-wrap: wrap;
+	}
+	.contato2 h3 {
+		margin-left: 15px;
+	}
+	.contate-nos ul {
+		margin-left: 15px;
+		margin-top: -15px;
+		margin-bottom: 15px;
+	}
+	
+	.midias-sociais ul {
+		width: 332px;
+		margin-left: 15px;
+		margin-top: -15px;
+		margin-bottom: 15px;
+		padding: 0 30px;
+	}
+	
+	.newsletter {
+		margin-bottom: 5px;
+	}
+
+	.newsletter ul {
+		margin-left: 15px;
+		margin-top: -15px;
+		margin-bottom: 15px;
+	}
+	
+	.newsletter li {
+		display: flex;
+	}
+	
+	.newsletter input {
+		width: 200px;
+	}
+	
+	.newsletter button {
+		width: 110px;
+		position: relative;
+		left: 1px;
+		top: 1px;
+	}
+	
+	.bg-footer {
+		
+}
+}
